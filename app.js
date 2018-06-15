@@ -141,9 +141,9 @@ app.post('/tosent', function(req, res) {
 	    console.log(error);
 	  } else {
 	    console.log('Email sent: ' + info.response);
-	    res.render('contact/index', {msg: "Амжилттай илгээгдлээ"});
 	  }
 	});
+	res.redirect('/');
 })
 
 app.get('*', index.notFound);
