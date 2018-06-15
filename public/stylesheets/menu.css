@@ -21,6 +21,12 @@ section {
 .index_content img {
   margin: 0 auto;
 }
+
+div.memo ul li {
+  list-style: initial;
+  margin-left: 30px;
+}
+
 .sec01 {
   background: url("../images/background-image.PNG");
 }
