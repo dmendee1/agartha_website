@@ -1,0 +1,283 @@
+.container-gallery {
+  width: 80%;
+  margin: 0 auto;
+}
+section {
+  margin-top: 10px;
+  padding: 2em 0em;
+  width: 100%;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.fill {
+  height: 100vh;
+}
+.index_content {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.index_content img {
+  margin: 0 auto;
+}
+.sec01 {
+  background: url("../images/background-image.PNG");
+}
+
+.index_content div.row {
+  padding: 5em;
+}
+
+.index_content div.row div {
+  height: 100%;
+}
+
+.index_content div.container h1 {
+  font-size: 30px;
+}
+
+.index_content p {
+  font-size: 16px;
+  color: #000;
+  text-align: justify;
+  text-indent: 1em;
+}
+
+.index_content div.col-sm-8 {
+  vertical-align: center;
+  margin: auto 0;
+}
+
+.sec02 {
+  background: url(../images/index/sec02/02.jpg);
+  background-size: cover;
+}
+
+.sec02 {
+  color: #fff;
+}
+
+.sec02 p {
+  color: #fff;
+}
+
+.sec03 {
+  background: #ccc;
+}
+
+.sec03 div.row {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  text-indent: 0em;
+}
+.sec03 div.row div p {
+  color: #444;
+  text-align: center;
+  text-indent: 0em;
+}
+
+.sec03 div.row div {
+  margin-top: 30px;
+}
+
+.sec03 p.num {
+  text-align: center;
+  text-indent: 0em;
+  font-size: 50px;
+  padding: 0.5em 0.5em;
+}
+
+.sec04 div.row {
+  padding: 1em;
+}
+
+.sec04 a {
+  opacity: 0.6;
+  background: #fff;
+}
+
+.sec04 a:hover {
+  opacity: 1;
+  transform: scale(1.2, 1.2);
+}
+
+section .show {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+  display: block;
+}
+#navbar-menu {
+  margin-bottom: 80px;
+}
+.navbar {
+  background: none;
+  border:none;
+  position: fixed;
+  background-color: #0D4170;
+  transition: .3s;
+}
+a.navbar-brand {
+  color: #fff;
+}
+h1, h2, h3, h4, h5 {
+  font-size: medium;
+  text-align: justify;
+  text-indent: 1em;
+}
+.collapse .nav {
+  color: #fff;
+}
+#headermenu {
+  transform: translateX(15%);
+}
+
+footer {
+  background-color: #0D4170;
+  margin: 0 auto;
+  height: 5%;
+  margin-top: 30px;
+  padding: 1em;
+  bottom: 0;
+  left: 0;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer ul.social li {
+  display: inline;
+}
+
+footer ul.social li a {
+  padding: 1em;
+  display: inline-block;
+  border-radius: 100%;
+  border:1px solid;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 100%;
+  color: #fff;
+}
+
+footer ul.social li a:hover {
+  background-color: #0D4170;
+  border:none;
+  color: #fff;
+  transform: translateY(-10%);
+  transform: scale(1.2, 1.2);
+  transition: .3s;
+}
+
+footer ul.social li a:visited {
+  background-color: #0D4170;
+  border:none;
+  color: #fff;
+  transform: translateY(-10%);
+  transform: scale(1.2, 1.2);
+  transition: .3s;
+}
+
+section {
+  opacity: 0;
+  /*opacity:0.1;*/
+  height: 100%;
+  /*background: #fff;*/
+}
+
+section.active {
+  opacity: 1;
+  visibility: initial;
+  transition: 5s;
+}
+
+.slidediv{
+  float:left;
+  width:66%;
+  margin-right: 3%;
+}
+.content h1 {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    width: 100%;
+  }
+  .slidediv {
+    width: 100%;
+  }
+  .cb-slideshow li span { 
+    width: 100%;
+
+  }
+
+  .cb-slideshow li div { display: none}
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .navbar-toggle{
+    visibility: visible;
+  }
+  .header3 {
+    display: none;
+  }
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+  
+  .navbar-brand {
+    display: inline-block;
+    float: none;
+  }
+  
+  .navbar-form.form-inline {
+    display: inline-block;
+    border-color: transparent;
+    margin: 4px;
+    padding: 5px;
+  }
+  .dropdown-menu {
+    transition: .3s;
+  }
+}

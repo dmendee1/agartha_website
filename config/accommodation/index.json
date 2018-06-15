@@ -1,0 +1,11 @@
+{
+    "title_mn":"Таны тухлах сууц",
+    "title_en":"Accommodation",
+    "text_mn":["Монголын ард түмний ахуй амьдрал, түүх, соёлын 3000 жилийн тод илэрхийлэл, үнэт өв болсогн уламжлалт Монгол гэрийн орчин үеийн хийц загвартай хослуулан засаж, манай амралтын газрын нэрийн хуудас болох өндөр зэрэглэлийн үйлчилгээний хамт таньд бэлтгэээ. Люкс болон хагас люкс гэрүүдийн гаднах тусгайлан зассан задгай терраст та тухлангаа, үдшийн анир чимээгүй, зөөлөн салхинд далайн давалгааг анирлахын сацуу алсад гялтганах оддыг харж, онгон зэлүүд байгалийн сэтгэл уужрам цэвэр агаараар цээж дүүрэн амьсгалж, алжаалаа тайлах болно."],
+    "text_en":["As our name tag, we have built our resort with Mongolian traditional housing called Ger, which is a Mongolian precious historical and traditional lifestyle inheritance worth of 3000 years, combined with modern architecture along with luxurious high end services.",
+    	"You will be able to relieve your stress by listening to the silence of nature, feeling soft breezes over the waves of lake, sighting the bright stars in the sky and savoring the pure air of virgin land while you comfort yourself on the terrace built right outside the lux and semi-lux gers."],
+    "path":["../images/accommodation/index/01.jpg", 
+    	"../images/accommodation/index/02.jpg", 
+    	"../images/accommodation/index/03.jpg", 
+    	"../images/accommodation/index/04.jpg"]
+}

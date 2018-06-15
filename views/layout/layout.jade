@@ -1,0 +1,14 @@
+doctype html
+html
+	head
+		title= title
+		include styles.jade
+	body
+		if(session.language == "En")
+			include menu_en.jade
+		if(session.language == "Mn")
+			include menu_mn.jade
+		div#navbar-menu
+		div.content
+			block content
+		include footer.jade

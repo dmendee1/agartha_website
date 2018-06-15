@@ -1,0 +1,98 @@
+.bar {
+	background-color: transparent;
+	border: none;
+	display: none;
+	position: absolute;
+	right: 2rem;
+}
+.bar:focus {
+	border: none;
+	outline: none;
+}
+.bar i {
+	color: #555;
+	font-size: 1.5rem;
+}
+.logo {
+	text-decoration: underline;
+}
+.logo:hover,
+.descr a:hover {
+	color: #008080;
+}
+.document {
+	
+}
+
+.wrapper {
+	margin: auto;
+	width: 90%;
+}
+.wrapper .large-image {
+	border: 5px solid #fff;
+	-webkit-box-shadow: 0 7px 10px #666;
+	box-shadow: 0 7px 25px #666;
+	margin-top: 1em;
+}
+.wrapper .thmb-wrap {
+	border: 5px solid #fff;
+	-webkit-box-shadow: 0 7px 10px #666;
+	box-shadow: 0 7px 25px #666;
+	margin-bottom: 1em;
+}
+.wrapper h1 {
+	font-size: 30px;
+	font-family: Tahoma;
+	border-bottom: 1px solid;
+}
+.heading {
+	/*color: #a2a230;*/
+	font-size: 2rem;
+	padding: 1rem 0;
+	text-align: left;
+}
+/*.container- {
+	margin-top: 50px;
+}*/
+.document-descr-wrap,
+.styles-descr-wrap,
+.options-descr-wrap {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	font-size: 1.2rem;
+	
+}
+.document-descr-wrap,
+.styles-descr-wrap {
+	justify-content: flex-start;
+}
+.options-descr-wrap {
+	justify-content: flex-end;
+}
+.descr {
+	background-color: 
+	 rgba(220,220,220,.4);/*rgba(0,128,128,.2);*/
+	/*border: 5px solid #fff;*/
+	-webkit-box-shadow: 0 7px 10px #666;
+	/*border-radius: 10px;*/
+	box-shadow: 0 7px 25px #666;
+	color: #000;
+	font: 1.5rem/1.5 'Indie Flower', cursive;
+	margin: 4rem 0 0;
+	padding: 2rem;
+	width: 35%;
+}
+.options-descr-wrap .descr,
+.styles-descr-wrap .descr {
+	margin: 0 0 2rem;
+}
+.options-descr-wrap .descr {
+	background-color: rgba(0,128,128,.2);
+	
+}
+.styles-descr-wrap .descr {
+	background-color: rgba(120,120,195,.2);
+}

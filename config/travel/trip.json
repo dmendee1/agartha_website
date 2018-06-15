@@ -1,0 +1,10 @@
+{
+    "title_mn":"Мориор аялах",
+    "title_en":"Trip Horse",
+    "text_mn":["Текст"],
+    "text_en":["Text"],
+    "path":["../images/travel/trip/trip01.jpg", 
+    	"../images/travel/trip/trip02.jpg", 
+    	"../images/travel/trip/trip03.jpg", 
+    	"../images/travel/trip/trip04.jpg"]
+}

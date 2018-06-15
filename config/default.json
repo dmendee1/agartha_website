@@ -1,0 +1,8 @@
+{
+    "messenger_uri": "https://graph.facebook.com/v2.6/me/messages",
+    "app_secret": "a08d2b26023164b6ca399ef7a97aa688",
+    "page_access_token": "EAAYm32PDx0QBAEN42NNUGZCTtmxgPNgeXZAUKTicnZC9oSnQr9c57QTjVMRpP2mZB1gZBAMYZBO7WOXzxaM4SZBekUojdeNcLLiqAvWebXbWBEMjfl0qhg8q6VUbQFg8LCNwjOnzrZB2Ycqsjs8gmA4th65YpdndRS4gQZBcQ4oIjHVnpVLrLmotX",
+    "validation_token": "chatbot",
+    "ai_url": "http://127.0.0.1:5000/chatter",
+    "port_number": "8000"
+}

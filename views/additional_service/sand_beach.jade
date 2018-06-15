@@ -1,0 +1,16 @@
+extends ../layout/layout
+
+block content
+	div.row
+		div(class="col-lg-2 header3")
+			include layout/head
+		div.col-lg-10
+			div.wrapper
+				h1 #{title}
+				div(class="slidediv")
+					div(class="container-gallery")
+						each data in datas
+							img(src="#{data}" alt="")
+				div(class="textdiv")
+					each text in texts
+						h3 #{text}

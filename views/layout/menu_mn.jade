@@ -1,0 +1,58 @@
+nav(class="navbar navbar-inverse fixed-top navbar-expand-sm")
+	div(class="container-fluid")
+		div(class="navbar-header")
+			button(type="button", class="navbar-toggle", data-toggle="collapse", data-target="#myNavbar")
+				span(class="icon-bar")
+				span(class="icon-bar")
+				span(class="icon-bar")
+			a(class="navbar-brand" href="/") Agartha Mongolian camp
+		div(class="collapse navbar-collapse", id="myNavbar")
+			ul(class="nav navbar-nav", style="color:#fff")
+				li
+					a(href="/accommodation")	Тухлах сууц
+					
+				li.dropdown
+					a(class="dropdown-toggle", data-toggle="dropdown", href="#") Ресторан / Лоунж
+					ul.dropdown-menu
+						li
+							a(href="/lounge/ger_restaurant") Гэр ресторан
+						li
+							a(href="/lounge/terrace") Лоунж, задгай террас
+
+				li.dropdown
+					a(class="dropdown-toggle", data-toggle="dropdown", href="#") Саун
+					ul.dropdown-menu
+						li
+							a(href="/saun/jakus") Япон саун
+						li
+							a(href="/saun/massage") Массаж болон Гоо сайхан
+
+				li.dropdown
+					a(class="dropdown-toggle", data-toggle="dropdown", href="#") Аялал
+					ul.dropdown-menu
+						li
+							a(href="/travel/boat") Завин аялал
+						li
+							a(href="/travel/moto") Мото аялал
+
+				li.dropdown
+					a(class="dropdown-toggle", data-toggle="dropdown", href="#") Нэмэлт үйлчилгээ
+					ul.dropdown-menu
+						li
+							a(href="/additional_service/tennis") Талбайн теннис
+						li
+							a(href="/additional_service/sand_beach") Элсэн эрэг
+						li
+							a(href="/additional_service/kinder") Хүүхдийн цэцэрлэг
+				li()
+					a(href="/memo")	Санамж
+				li()
+					a(href="/contact")	Холбоо барих
+			div(style="float:right")
+				ul(class="nav navbar-nav", style="color:#fff")
+					li
+						a(href="/language/1")
+							img(src="../images/flag_en.png", width="20px")
+					li
+						a(href="/language/0", style="border:1px solid")
+							img(src="../images/flag_mn.png", width="20px")

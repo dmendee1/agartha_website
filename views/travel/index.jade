@@ -1,0 +1,11 @@
+extends ../layout/layout
+
+block content
+	h1 #{title}
+	div(class="slidediv")
+		div(class="container-gallery")
+			each data in datas
+				img(src="#{data}" alt="")
+	div(class="textdiv")
+		each text in texts
+			h3 #{text}

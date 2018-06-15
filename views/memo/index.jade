@@ -1,0 +1,37 @@
+extends ../layout/layout
+
+block content
+	div.row
+		div(class="col-lg-2 header3")
+			include ../layout/head
+		div.col-lg-10
+			div.wrapper
+				if session.language == 'Mn'
+					h1 Санамж буюу зааварчилгаа
+				if session.language == 'En'
+					h1 Remark and Guidance
+				if session.language == 'Mn'
+					div.col-sm-6
+						h4 Манай "Агарта" амралтын газрыг зорихоор сэтгэл шулуудсан эрхэм таньд гялайлаа. Аялалын тав тухтай байдлын үүднээс хувийн бэлтгэлдээ анхаарах цөөн зүйлсийн талаар бид таньд сануулах нь зүйтэй.
+						h4 Үүнд:
+						ul
+							li Усны гутал, борооны цув, шүхэр зэрэг нь мэдээж хэрэг таны нэн тэргүүнд бэлдэх ёстой зүйлс.
+							li Мөн та өөрйин байнга хэрэглэдэг усны хувцасаа авч ирэхээ мартуузай!
+							li Хөвсгөл нуурын эрэгт өдөр нь ихээхэн халж, оройд нь сэрүүвтэр байдаг онцлогтой тул орой үдэш өмсөх дулаанг хувцас, гуталаа сайтар базаасан байх хэрэгтэй.
+							li Манай амралтын газар байрлах Хөвсгөл нуурын зүүн хойд эрэг нь далайн түвшнээс дээш 1945 метр өндөрт байрладаг тул нарны тусгал арьсанд шууд нөлөөлөх магадлал ихтэй. Ийм учраас нарны тос ч мөн чухал.
+							li Эцэст нь хэлэхэд манайд чийглэг уур амьсгал зонхилдог тул тосоо зэхэж ирэх нь зүйтэй.
+
+						h2 Бидний танилцуулгыг анхааран уншсан эрхэм таньд гүнээ талархлаа.
+				else
+					div.col-sm-6
+						h4 Thank you for your decision if you have decided to visit Agartha resort. For your safety amd comfort following list provides information on what to pack when traveling to Khuvsgul lake.
+						ul
+							li Rain boots, rain coats, and umbrellas are essential to bring.
+							li Please do not forget to pack your swim suit.
+							li The weather gets hot during daytime and gets chilly in the evenings. Therefore, you must bring warm clothes and shoes to keep you warm clothes and shoes to keep you warm and cozy.
+							li Sunscreen skin products for your skin is another must bring item because Agartha resort is located on the north east shore of Khuvsgul lake which is at 1645m above sea level where sunlight can reflect to the skin directly.
+							li Khuvsgul lake's air is humid, therefore, you must bring mosquito repellent lotions to prevent mosquito or other insect bites.
+
+						h2 We sincerely appreciate for your time and kind attention.
+				div.col-sm-6
+					img(src="../images/memo/01.png", width="100%")
